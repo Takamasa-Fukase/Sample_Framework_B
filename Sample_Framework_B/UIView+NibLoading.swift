@@ -9,7 +9,8 @@ import UIKit
 
 extension UIView {
     func loadNib() {
-        let nib = UINib(nibName: Self.className, bundle: nil)
+        let bundle = Bundle(for: Self.self)
+        let nib = UINib(nibName: Self.className, bundle: bundle)
         guard let view = nib.instantiate(withOwner: self).first as? UIView else { return }
         addSubview(view)
         addConstraints(for: view)
