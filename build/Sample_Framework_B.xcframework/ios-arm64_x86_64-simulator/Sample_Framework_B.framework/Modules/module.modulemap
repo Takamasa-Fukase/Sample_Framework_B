@@ -1,0 +1,6 @@
+framework module Sample_Framework_B {
+  umbrella header "Sample_Framework_B.h"
+  export *
+
+  module * { export * }
+}
