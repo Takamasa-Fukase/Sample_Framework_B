@@ -8,6 +8,10 @@
 		<data>
 		0+Ac7joh1k1ryyZDfM/CvCfrQyc=
 		</data>
+		<key>ImageDisplayView.nib</key>
+		<data>
+		cwFVZKfc+LW3uHFY7BO5ebbKuCw=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		jJxOlIgeSwZCNZxoyU6H/C7u7B8=
@@ -44,6 +48,13 @@
 			<key>hash2</key>
 			<data>
 			LO/sJluSJClEp0j9fFWVvcEdJEdNpBw7/f7pEi4yCFM=
+			</data>
+		</dict>
+		<key>ImageDisplayView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			crqoVFj+5A+ULWsi6W5oonXsKQRyvetixwPWqI+/pV4=
 			</data>
 		</dict>
 		<key>Modules/Sample_Framework_B.swiftmodule/arm64-apple-ios.abi.json</key>
