@@ -32,6 +32,14 @@ public final class ImageDisplayView: UIView {
         showImage()
     }
     
+    private func loadNib() {
+        let bundle = Bundle(for: ImageDisplayView.self)
+        let nib = UINib(nibName: "ImageDisplayView", bundle: bundle)
+        guard let view = nib.instantiate(withOwner: self).first as? UIView else { return }
+        addSubview(view)
+        addConstraints(for: view)
+    }
+    
     public func updateImage() {
         print("FW_B updateImage 現在のcount")
         if count == 2 {
