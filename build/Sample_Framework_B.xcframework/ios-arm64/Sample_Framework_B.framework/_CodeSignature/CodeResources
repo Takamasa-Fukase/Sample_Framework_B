@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/Sample_Framework_B.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		69fUCqsxAhtwPI94+OeOJICFDJk=
+		xnu9VTAwyHVzU8kBmuAdV3ZVRYc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBDchMPzM78CNyurmU4QfQ31B3Tjz+H83tGlvZbAh14=
+			pfIJ9h9Kt8BP2iQ/DoS0Stdbzd4uSNvTV1XIs8g7Ec8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
