@@ -11,6 +11,7 @@
 		BC552BA02D0895AF00E343FD /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552B9E2D0895AF00E343FD /* NSObject+Extension.swift */; };
 		BC552BA12D0895AF00E343FD /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552B9F2D0895AF00E343FD /* UIView+NibLoading.swift */; };
 		BC552BA32D08966300E343FD /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BA22D08966300E343FD /* UIView+Constraint.swift */; };
+		BC552BB52D089FD400E343FD /* ImageDisplayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC552BB42D089FD400E343FD /* ImageDisplayView.xib */; };
 		BCDBD8642D0892E300615A94 /* Sample_Framework_B.docc in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD8632D0892E300615A94 /* Sample_Framework_B.docc */; };
 		BCDBD86A2D0892E300615A94 /* Sample_Framework_B.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBD85F2D0892E300615A94 /* Sample_Framework_B.framework */; };
 		BCDBD86F2D0892E300615A94 /* Sample_Framework_BTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD86E2D0892E300615A94 /* Sample_Framework_BTests.swift */; };
@@ -29,10 +30,10 @@
 
 /* Begin PBXFileReference section */
 		BC552B9B2D0894C500E343FD /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
-		BC552B9C2D0894C500E343FD /* ImageDisplayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDisplayView.xib; sourceTree = "<group>"; };
 		BC552B9E2D0895AF00E343FD /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 		BC552B9F2D0895AF00E343FD /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
 		BC552BA22D08966300E343FD /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
+		BC552BB42D089FD400E343FD /* ImageDisplayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageDisplayView.xib; sourceTree = "<group>"; };
 		BCDBD85F2D0892E300615A94 /* Sample_Framework_B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sample_Framework_B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDBD8622D0892E300615A94 /* Sample_Framework_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample_Framework_B.h; sourceTree = "<group>"; };
 		BCDBD8632D0892E300615A94 /* Sample_Framework_B.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Sample_Framework_B.docc; sourceTree = "<group>"; };
@@ -82,7 +83,7 @@
 			children = (
 				BCDBD8622D0892E300615A94 /* Sample_Framework_B.h */,
 				BC552B9B2D0894C500E343FD /* ImageDisplayView.swift */,
-				BC552B9C2D0894C500E343FD /* ImageDisplayView.xib */,
+				BC552BB42D089FD400E343FD /* ImageDisplayView.xib */,
 				BC552B9E2D0895AF00E343FD /* NSObject+Extension.swift */,
 				BC552B9F2D0895AF00E343FD /* UIView+NibLoading.swift */,
 				BC552BA22D08966300E343FD /* UIView+Constraint.swift */,
@@ -191,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC552BB52D089FD400E343FD /* ImageDisplayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
